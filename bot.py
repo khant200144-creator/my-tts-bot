@@ -5,7 +5,7 @@ import asyncio
 import os
 from flask import Flask
 from threading import Thread
-('8657151202:AAFJrtxoqiyvXmontyYT-XFzqkbcUrq4JkA ')
+('8657151202:AAFJrtxoqiyvXmontyYT-XFzqkbcUrq4JkA')
 bot = telebot.TeleBot(TOKEN)
 
 user_voices = {}
