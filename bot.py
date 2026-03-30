@@ -100,6 +100,8 @@ def run_server():
     app.run(host="0.0.0.0", port=int(os.environ.get('PORT', 8080)))
 
 if name == "__main__":
-    server_thread = Thread(target=run_server)server_thread.start()
+    server_thread = Thread(target=run_server)
+    server_thread.start()
     print("Bot is running...")
     bot.infinity_polling()
+    
